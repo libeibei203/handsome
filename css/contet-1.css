@@ -1,0 +1,34 @@
+html {
+    font-size: 14px;
+    color: #000000;
+  }
+  body {
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 80px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    background-color: #7681a5;
+  }
+  .fast_nav {
+    font-size: 24px;
+    border-top: 1px solid #110e0e;
+
+  }
+  .fast_nav> .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
