@@ -11,7 +11,7 @@ ul,h1,h2,h3 {
     padding:0;
     
 }
-    
+ul > span:hover {background-color: honeydew}
 
 span{
     width: 100px;
@@ -39,7 +39,7 @@ a {
 .wrapper {
     width:1200px;
     margin: 0 auto;
-    background-color: pink;
+    background-color: white;
 
 }
 /*快捷导航*/
@@ -69,7 +69,6 @@ p{
     color:red;
 
 border-bottom: 1px solid gray;}
-
 
 
 
