@@ -4,7 +4,9 @@
   .wapper {width: 1024px}
   a {
     text-decoration: none;
+    color: #333333;
   }
+.logo{border-bottom: 2px solid #ededed;margin-bottom: 6px}
   ul {
     margin: 0;
     padding: 0;
