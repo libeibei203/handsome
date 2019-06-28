@@ -1,0 +1,25 @@
+html {
+    font-size: 14px;
+    color: #000000;
+  }
+  body {
+    margin: 0;
+    padding: 30px;
+  }
+  ul {
+    list-style: none;
+  }
+  .fast_nav .nav >ul > li{
+    float: left;
+    width: 50px;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+  }
+  .fast_nav .nav >ul > li:hover {
+    background-color: #3f4c72;
+  }
+  .top_nav .logo {
+    line-height: 20%;
+    float: left;
+  }
