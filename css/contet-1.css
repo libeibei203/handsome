@@ -1,7 +1,7 @@
   body {
     margin: 0;
   }
-  .wapper {width: 1024px}
+ 
   a {
     text-decoration: none;
     color: #333333;
@@ -19,7 +19,7 @@
   }
   .top_nav{
     text-align: center;
-    margin-left: 10%;
+    margin-left: 8%;
   }
   .top_nav > li {
     position: relative;
@@ -49,3 +49,92 @@
     background-color: rgb(111, 163, 240);
     border-bottom:  1px solid #ffffff;
   }
+  .toutiao{font-size: 43px
+  }
+  .toutiao{font-weight: 800}
+  .yaowen{
+    font-size: 16px
+  }
+ .wrapper-left {
+   margin-top: 30px;
+   width: 700px;
+   height: 100px;
+   margin-left: 20%;
+   float: left;
+   margin-bottom: 30px;
+   }
+   .wrapper-right{ 
+  width: 400px;
+  height: 100px;
+   float: left;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   }
+   .wrapper-left::after {
+    content: "";
+    clear: both;
+  }  
+   .wrapper-right::after {
+    content: "";
+    clear: both;
+  }
+.rightfloat{
+  position: fixed;
+  float: left;
+  margin-left: 1600px;
+  clear: both;
+}
+.rightfloat >img{
+    margin-top: 62px;
+}
+.rightfloat >img:hover{
+border-width: 10px;
+}
+.content-left{
+     float: left;
+     margin-left: 16%;
+     width: 800px;
+     }
+ .content-left>p{
+font-size: 38px;
+margin-top: 5px;
+border-bottom:  1px solid #8a8787;
+      }
+.content-left>div{
+  border-bottom:  1px solid #8a8787;
+}
+.content-left>div>h2{
+  width: 500px;
+  float: left;
+}
+.content-left>div::after{
+  content: "";
+  display: block;
+  clear: both;
+}  
+.content-left>div>p{
+width: 480px;
+float: left;
+}
+.jiuzheng{width: 800px}
+.div>img{
+ padding: 331px; 
+}
+.content-left>div>img{
+float: right;
+margin-bottom: 8px;
+margin-top: 8px
+}
+
+ .content-right{
+    float: left;
+   width: 400px;
+margin-left: 40px;}
+
+.content-right{line-height: 2em}
+ .content-right>span{
+   font-size: 24px；
+ }
+ .content-right>span:nth-child(1){
+   font-size: 33px;
+ }
