@@ -1,0 +1,368 @@
+#nav_home a{
+	color: #1d3f6c;
+	font-weight: bold;
+}
+/*内容-start*/
+ .zhuanti_body .a_img img{width:248px;height:130px}
+ .zuopin .zuopin_img img{width:280px;height:196px}
+	.content{
+		width: 1200px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	/*内容头部-start*/
+		.content_top{
+			overflow: hidden;
+		}
+
+		/*左侧轮播-start*/
+			.top_lunbo{
+				float: left;
+				width: 712px;
+				height: 478px;
+				position: relative;
+			}
+			.top_lunbo .lunbo_btnL,
+			.top_lunbo .lunbo_btnR{
+				display: block;
+				width: 49px;
+				height: 49px;
+				cursor: pointer;
+				position: absolute;
+				top: 215px;
+				z-index: 2;
+			}
+			.top_lunbo .lunbo_btnL{
+				left: 16px;
+			}
+			.top_lunbo .lunbo_btnR{
+				right: 16px;
+			}
+			.top_lunbo .lunbo_out,
+			.top_lunbo .lunbo_in,
+			.top_lunbo li,
+			.top_lunbo li img{
+				width: 712px;
+				height: 478px;
+				overflow: hidden;
+			}
+			.top_lunbo  li{
+				float: left;
+				display: none;
+			}
+			.top_lunbo .show,
+			.top_lunbo .a_img{
+				display: block;
+			}
+		/*左侧轮播-end*/
+
+		/*右侧-start*/
+			.content_top_R{
+				float: right;
+				width: 467px;
+				height:478px;
+				background-color: #fff;
+				position:relative;
+			}
+			.CTR_title{
+				padding: 23px 29px 0px 25px;
+			}
+			.CTR_title a{
+				font-family: '微软雅黑';
+				font-size: 24px;
+				line-height: 30px;
+				letter-spacing:1px;
+				color: #3f3c39;
+			}
+			.content_top_R ul{
+				padding-left: 25px;
+				padding-right: 29px;
+				height:312px;
+				overflow:hidden;
+			}
+			.content_top_R li{
+				padding-top: 20px;
+				overflow: hidden;
+			}
+			.content_top_R li a{
+				font-family: '微软雅黑';
+				font-size: 14px;
+				color: #464646;
+				display:block;
+				float:left;
+				text-align:left;
+				width:370px;
+			}
+			.content_top_R li span{
+				float: right;
+				font-family: Arial;
+				font-size: 14px;
+				color: #464646;
+			}
+			.more{
+				margin-top: 20px;
+				padding-top: 18px;
+				padding-bottom:18px;
+				border-top: 1px dotted #bababa;
+				text-align: center;
+				position:absolute;
+				bottom:0;
+				width:100%;
+			}
+			.more a{
+				font-family: '微软雅黑';
+				font-size: 14px;
+				color: #004576;
+			}
+		/*右侧-end*/
+	/*内容头部-end*/
+
+	/*长图*/
+	.longimg{
+		display: block;
+		margin-top: 42px;
+	}
+
+	/*主体内容-start*/
+		.main{
+			overflow: hidden;
+			margin-top: 42px;
+			padding-bottom: 125px;
+		}
+		/*左侧-start*/
+			.main_left{
+				float: left;
+				width: 892px;
+				overflow: hidden;
+			}
+			/*列表-start*/
+				.mian_list{
+					width: 918px;
+					overflow: hidden;
+				}
+				.mian_list li{
+					float: left;
+					margin-right: 26px;
+					margin-bottom: 25px;
+					width: 280px;
+					height: 376px;
+					background-color: #fff;
+				}
+				.zuopin{
+					height: 315px;
+					border-bottom: 1px solid #eaeaea;
+				}
+				.zuopin_img{
+					display: block;
+				}
+				.zuopin_p1{
+					margin-top: 20px;
+					margin-left: 20px;
+					margin-right:20px;
+					height:21px;
+					overflow:hidden;
+					text-overflow:ellipsis;
+					white-space:nowrap;
+				}
+				.zuopin_p1 a{
+					font-family: '微软雅黑';
+					font-size: 16px;
+					color: #000000;
+				}
+				.zuopin_p2{
+					margin-top: 10px;
+					margin-left: 20px;
+				}
+				.zuopin_p2 a{
+					font-family: '微软雅黑';
+					font-size: 16px;
+					color: #b5b5b5;
+				}
+				.zuopin_xinxi{
+					margin-top: 17px;
+					margin-left: 20px;
+					overflow: hidden;
+				}
+				.zuopin_look{
+					float: left;
+					font-family: '微软雅黑';
+					font-size: 16px;
+					color: #b9b9b9;
+					padding-left: 25px;
+					background: url(./../images/zuopin_look.png) 0 center no-repeat;
+				}
+				.zuopin_sizi{
+					float: left;
+					font-family: '微软雅黑';
+					font-size: 16px;
+					color: #b9b9b9;
+					padding-left: 25px;
+					background: url(./../images/zuopin_sizi.png) 0 center no-repeat;
+				}
+				.zuozhe{
+					overflow: hidden;
+				}
+				.zuozhe_img{
+					float: left;
+					display: block;
+					margin-top: 10px;
+					margin-left: 20px;
+				}
+				.zuozhe_name{
+					float: left;
+					margin-top: 20px;
+					margin-left: 12px;
+					font-family: '微软雅黑';
+					font-size: 16px;
+					color: #000;
+				}
+				.zuozhe_time{
+					float: right;
+					margin-top: 20px;
+					margin-right: 20px;
+					font-family: '微软雅黑';
+					font-size: 16px;
+					color: #b5b5b5;
+				}
+			/*列表-end*/
+
+			/*页码-start*/
+				.page_nume{
+					margin-top: 55px;
+					margin-left: 160px;
+					overflow: hidden;
+				}
+				.page_nume li{
+					float: left;
+					margin-right: 5px;
+					width: 29px;
+					height: 29px;
+					text-align: center;
+					line-height: 29px;
+					cursor: pointer;
+					background-color: #fff;
+					font-family: '微软雅黑';
+					font-size: 14px;
+					color: #9b9b9b;
+					border-radius: 2px;
+				}
+				.page_nume li a{
+					color: rgb(155, 155, 155);
+				}
+				.page_nume .prev_big{
+					margin-right: 25px;
+					background: #fff url(./../images/prev_big.png) 0 0 no-repeat;
+				}
+				.page_nume .nex_big{
+					margin-left: 20px;
+					margin-right: 0;
+					background: #fff url(./../images/nex_big.png) 0 0 no-repeat;
+				}
+				.page_nume .number:hover{
+					background-color: #023f6e;
+					color: #fff;
+				}
+				.page_nume .number_select{
+					background-color: #023f6e;
+					color: #fff;
+				}
+			/*页码-end*/
+		/*左侧-end*/
+
+		/*右侧-start*/
+			.main_right{
+				float: right;
+				width: 283px;
+			}
+			.box_out{
+				width: 280px;
+				padding-left: 3px;
+				background: url(./../images/box_bj.jpg) 0 11px no-repeat;
+			}
+			.box{
+				width: 280px;
+				background-color: #fff;
+			}
+			.box_title{
+				height: 41px;
+				overflow: hidden;
+				border-bottom: 1px solid #eaeaea;
+			}
+			.box_title_name{
+				float: left;
+				margin-top: 10px;
+				margin-left: 20px;
+				font-family: '[SourceHanSerifCN]','微软雅黑';
+				font-size: 18px;
+				color: #000;
+			}
+			.box_title_more{
+				float: right;
+				margin-top: 15px;
+				margin-right: 17px;
+				font-family: '微软雅黑';
+				font-size: 12px;
+				color: #000;
+			}
+
+			/*专题*/
+			.zhuanti_body{
+				padding-bottom: 16px;
+			}
+			.zhuanti_body .a_img{
+				display: block;
+				margin-top: 17px;
+				margin-left: 15px;
+			}
+
+			/*画家推荐*/
+			.hjtj{
+				margin-top: 25px;
+			}
+			.hjtj_body{
+				width: 256px;
+				margin: 0 auto;
+				padding-bottom: 29px;
+				overflow: hidden;
+			}
+			.hjtj_body li{
+				float: left;
+				margin-top: 18px;
+				padding: 0 25px;
+				width: 78px;
+			}
+			.hjtj_body .a_img{
+				display: block;
+			}
+			.hjtj_body p{
+				text-align: center;
+				margin-top: 14px;
+			}
+			.hjtj_body p a{
+				font-family: '微软雅黑';
+				font-size: 14px;
+				color:#0e0e0e;
+			}
+
+			/*友情链接*/
+			.yqlj{
+				margin-top: 27px;
+			}
+			.yqlj_body{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 25px;
+				line-height: 30px;
+				overflow: hidden;
+			}
+			.yqlj_body a{
+				float: left;
+				display: block;
+				margin-right: 25px;
+				font-family: '微软雅黑';
+				font-size: 12px;
+				color: #646464;
+			}
+		/*右侧-end*/
+	/*主体内容-end*/
+/*内容-end*/
