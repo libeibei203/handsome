@@ -136,5 +136,7 @@ margin-left: 40px;}
    font-size: 24px；
  }
  .content-right>span:nth-child(1){
-   font-size: 33px;
- }
+   font-size: 33px;}
+   .bottom{
+     margin-top: 10px;
+   }
