@@ -234,15 +234,17 @@ a {
 }
 .block3{
 	text-align: center;
+	background-color: aliceblue;
 }
 .blocktitle3{
 	text-align: center;
+	background-color: cadetblue;
 }
 .block4{
-	text-align: end;
+	background-color: aliceblue;
 }
 .blocktitle4{
-	text-align: end;
+	background-color: cadetblue;
 }
 .liatt{
 	font-size: 20px;
